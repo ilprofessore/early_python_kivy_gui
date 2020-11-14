@@ -69,7 +69,7 @@ class MyLayout(GridLayout):
             self.clear_field
 
 # this is the build class, this makes the main window.
-class PrototypeFinal(App):
+class PrototypeFinal(App): # best practice to end this class name with the word 'App' i.e. 'PrototypeFinalApp'.
     def build(self):
         return MyLayout()
 # this is the main function in python.
