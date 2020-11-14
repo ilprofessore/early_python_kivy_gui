@@ -1,6 +1,6 @@
 # this is the final stable version of this series.
 
-import kivy
+# import kivy ;this module is unused hence it's better to remove it from the code.
 from kivy.app import App
 from kivy.core import text
 from kivy.uix.label import Label
