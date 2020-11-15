@@ -11,7 +11,7 @@ from kivy.uix.textinput import TextInput
 # we will be using grid layouts with this project.
 class MyLayout(GridLayout):
     def __init__(self, **kwargs):
-        super().__init__(**kwargs)
+        super(MyLayout, self).__init__(**kwargs) # best to follow official
         self.is_submit_pressed = False
         # number of columns (this is a bultin variable named cols)
         self.cols = 1
