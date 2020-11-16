@@ -2,7 +2,7 @@
 
 # import kivy ;this module is unused hence it's better to remove it from the code.
 from kivy.app import App
-from kivy.core import text
+# from kivy.core import text ;idk from where tf did this come from.
 from kivy.uix.label import Label
 from kivy.uix.button import Button
 from kivy.uix.gridlayout import GridLayout
